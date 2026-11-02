@@ -10,7 +10,12 @@
 <body>
     <h1>Superhero Search</h1>
 
-    <button id="search">Search</button>
+    <form id="searchForm">
+        <label for="query">Search by superhero name or alias:</label>
+        <input type="text" id="query" name="query"
+                placeholder="e.g. Ironman or Tony Stark">
+        <button type="submit">Search</button>
+    </form>
 
     <div id="result"></div>
 </body>
